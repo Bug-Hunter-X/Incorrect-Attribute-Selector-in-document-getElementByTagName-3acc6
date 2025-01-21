@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Uncommon HTML Bug</title>
+</head>
+<body>
+  <div id="myDiv">
+    This is some text.
+  </div>
+
+  <script>
+    // Incorrect way to access element - missing quotes around attribute selector
+    var element = document.getElementByTagName('div'[id="myDiv"]);
+    element.innerHTML = "<p>Modified content</p>";
+  </script>
+</body>
+</html>
