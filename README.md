@@ -1,0 +1,1 @@
+This repository demonstrates a subtle bug involving the use of `document.getElementByTagName` in HTML/JavaScript. The bug stems from an incorrect way of selecting an element based on its ID attribute. The solution showcases the correct method of element selection.
